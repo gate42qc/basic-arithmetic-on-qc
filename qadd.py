@@ -53,7 +53,7 @@ def add(a: int, b: int):
     qvm = QVMConnection()
     p = Program()
     
-    # make sure the first number is the grather
+    # make sure the first number is the greater
     if a < b:
         t = a
         a = b

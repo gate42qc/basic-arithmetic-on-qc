@@ -107,4 +107,4 @@ def inv_qft(qubits):
     :param qubits: A list of qubit indexes.
     :return: A Quil program to compute the inverse QFT of the given qubits.
     """
-    return reverse_qubits(qubits, dir=-1)+inv_qft_core(qubits)
+    return reverse_qubits(qubits, order=-1)+inv_qft_core(qubits)
